@@ -19,16 +19,16 @@ https://www.figma.com/file/Fmx1sUAOSJZDFFbjr8eenN/%22App-Name-Here%22---Project-
 Creators post their content and utilize multiple platforms while only having access to 1 at a time, or multiple windows open to see and track all their data at once. 
 What if there was one place they could access their metrics, track and manage their income, and budget and set goals for the future of their career. 
 
-## Project Description
+## User Stories
 
-* As a user I want to see all my social media, commerce, courses, and merch data in once place.
+* AS A user I WANT to see all my social media, commerce, courses, and merch data SO THAT I can manage and view my accounts and income in once place
 
-* the User will log in securely and for the app to remember my data. 
+* AS A user I WANT to log in securely and for the app to remember my data SO THAT I dont have to type it over and over and someone else can't use stele my information.
 
-* If first log in, the User will put in my USER NAME for each platform, and any special API keys once and those to be remembered. 
+* AS A USER, when make an accont, I WANT to put in my USER NAME for each platform, and any special API keys once and those to be remembered SO THAT the app can remember my info.
 
-* At this time, for each username/platform data that is provided, those widgets will be the widgets provided and the others will be hidden unless requested
-              
+* AS A USER, after the app knows my account, I WANT the app to pull my info and provide me with widgets with my data in it so i can see my data clearly with no other widgets showing.
+
 * a button should unhide those widgets if the creator wants to add more platforms. (the user will be greeted with a "COMING SOON" on every platform we do not find API for)
 
 * Upon second log in, the User will be greeted with the widgets of choice with their corresponding data. 
@@ -55,7 +55,7 @@ What if there was one place they could access their metrics, track and manage th
 
 ### Music
 
-* Spotify - $.003 - $.005 per stream 
+* Spotify - $.003 -to- $.005 per stream 
 * Apple Music
 
 ### Courses
