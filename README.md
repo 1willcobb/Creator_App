@@ -1,43 +1,57 @@
-# Creator_App
+# Influencers Unlimited
 
-The Creator App is an app to manage a Creator's cross platform influence and financial management.
-
-## Figma
-
-https://www.figma.com/file/Fmx1sUAOSJZDFFbjr8eenN/%22App-Name-Here%22---Project-1-Group-Project?type=design&node-id=0%3A1&t=8fKFVH06Jsgbxh1K-1
+The Influencers Unlimited App is an app to manage a Creator's cross platform influence and financial management.
 
 ## Group Rolls
 
-* Project Manager:
-* UI:
-* UX:
-* API Developers:
+* Will: Project Lead (logic development, data structure)
+* Bryce: Software Developer (API Research, framework, Bulma implementation, CSS-styling)
+* Jared: Quality Control (API Research, styling, presentation polishing, display formatting)
+* Clayton: Scrum Master (API Research, Eventlistener implementation, CSS-styling )
+* Lars: Compliance Officer (logic development, troubleshooting, API Research,)
 
+## Project Presenters
 
-## The Problem 
+* (Jared) Elevator pitch: A one-minute description of your application.
+* (Clayton) Concept: What is your user story? What was your motivation for development?
+* (Will) Process: What were the technologies used? How were tasks and roles broken down and assigned? What challenges did you encounter? What were your successes?
+* (Bryce) Demo: Show your stuff!
+* (Lars) Directions for future development.
+
+## The Problem
 
 Creators post their content and utilize multiple platforms while only having access to 1 at a time, or multiple windows open to see and track all their data at once. 
-What if there was one place they could access their metrics, track and manage their income, and budget and set goals for the future of their career. 
+What if there was one place they could access their metrics, track and manage their income, and budget and set goals for managing their monthly finances and the future of their career. 
 
-## User Stories
+## Project Description
 
-* AS A user I WANT to see all my social media, commerce, courses, and merch data SO THAT I can manage and view my accounts and income in once place
+As a Creator making content and operating your brand across many platforms, you may have a hard time aggregate your data in one place to see how well you are doing financially and influentially. Influencers Unlimited is here to help. Now you can aggregate your data in one place and set goals you want to strive for monthly. 
 
-* AS A user I WANT to log in securely and for the app to remember my data SO THAT I dont have to type it over and over and someone else can't use stele my information.
+When you first open the app you are greated with instructions
 
-* AS A USER, when make an accont, I WANT to put in my USER NAME for each platform, and any special API keys once and those to be remembered SO THAT the app can remember my info.
+Then you will need to set you NAME, REVENUE GOAL, and INFLUENCE goal before progressing. You can go back to these goals any time while using the app with the “Set Goals” button.
 
-* AS A USER, after the app knows my account, I WANT the app to pull my info and provide me with widgets with my data in it so i can see my data clearly with no other widgets showing.
+Then, Choose a platform you would like your data to be tracked on. (Currently available widgets are highlighted in green). 
 
-* a button should unhide those widgets if the creator wants to add more platforms. (the user will be greeted with a "COMING SOON" on every platform we do not find API for)
+Input the required API or User Name request and hit Done. 
 
-* Upon second log in, the User will be greeted with the widgets of choice with their corresponding data. 
+This will save your access to that platform and if the information is correct, a new widget will appear with your data. 
 
-* A master widget spanning the whole top will be on top holding an average of all incomes, an average of entire social impact, and distance to goals.
+Press the “Add More Widgets” button to add more platform widgets to your dashboard. 
 
-* There should be a goal setting widget, or maybe a page? 
+If you are testing out the platform and do not have, or wish to put in your own info. Hit the “Example Data” button to input data from a few example creators. 
 
-* Note some platforms we will not be able to gater financial or any data at all and should possibly have an input form for people to help calculate a total. 
+You will see a comparison graph called “Monthly Goals” update with your goals compared to the data gathered from the platforms you have chosen and you will see widgets below that show more data on your desired platforms.
+
+
+## Project Future
+
+* There are many more platforms we want to get operational so we will continue to discovered and utilize these new platforms and APIs. 
+
+* We would like to compare more data in the main data and goal setting display. As well as display individualized platform goals and charts. 
+
+* The design is simplistic at the moment and we would love to add further design elements.
+
 
 ## Platforms considered
 
@@ -47,15 +61,14 @@ What if there was one place they could access their metrics, track and manage th
 * Instaragram
 * TikTok
 * Twitter (paid)
-* YouTube - https://developers.google.com/youtube/v3/docs/channels
-`https://www.googleapis.com/youtube/v3/channels?part=snippet,statistics&id=${channelId}&key=${apiKey}`
+* YouTube * ACTIVE
 * Twitch
 * Snap chat
 * Patreon
 
 ### Music
 
-* Spotify - $.003 -to- $.005 per stream 
+* Spotify
 * Apple Music
 
 ### Courses
@@ -83,5 +96,26 @@ What if there was one place they could access their metrics, track and manage th
 
 ## Competition
 
-Platforms like social blade[https://socialblade.com/youtube/c/1willcobb] and VidIQ [https://vidiq.com/] both leverage the YouTube API and parse comparisons. They also use key word searching with potentially the google search API. But they both are generally single platform and dont let you agigate multi platform or finances. 
+Platforms like social blade[https://socialblade.com/youtube/c/1willcobb] and VidIQ [https://vidiq.com/] both leverage the YouTube API and parse comparisons. They also use key word searching with potentially the google search API. But they both are generally single platform and don't let you aggregate multi platform or finances. 
+
+## Design Concepts
+
+[Figma](https://www.figma.com/file/Fmx1sUAOSJZDFFbjr8eenN/%22App-Name-Here%22---Project-1-Group-Project?type=design&node-id=0%3A1&t=8fKFVH06Jsgbxh1K-1)
+
+## Demo Images
+
+![demo](./assets/images/Main%20Page%20Desktop.png)
+![demo](./assets/images/Main%20Page%20Moble.png)
+![demo](./assets/images/Options.png)
+![demo](./assets/images/Goals%20solo.png)
+![demo](./assets/images/Coming%20Soon%20Modal.png)
+![demo](./assets/images/Welcome%20and%20Info.png)
+
+## GitHub Repository
+
+[repo](https://github.com/Claytonlax/Creator-App-2)
+
+## Live Site
+
+[Influencers Unlimited](https://claytonlax.github.io/Creator-App-2/)
 
