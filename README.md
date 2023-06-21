@@ -113,9 +113,9 @@ Platforms like social blade[https://socialblade.com/youtube/c/1willcobb] and Vid
 
 ## GitHub Repository
 
-[repo](https://github.com/Claytonlax/Creator-App-2)
+[repo](https://github.com/1willcobb/Creator_App)
 
 ## Live Site
 
-[Influencers Unlimited](https://claytonlax.github.io/Creator-App-2/)
+[Influencers Unlimited](https://1willcobb.github.io/Creator_App/)
 
